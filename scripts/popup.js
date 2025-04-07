@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         item.addEventListener('click', function () {
             const skillTitle = this.getAttribute('data-skill');
             popupTitle.textContent = skillTitle;
-            popupText.textContent = skillTexts[skillTitle] || "No hay información adicional disponible.";
+            popupText.textContent = skillTexts[skillTitle] || "";
             popup.style.display = 'flex';
         });
     });
