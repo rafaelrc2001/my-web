@@ -267,7 +267,7 @@ nav ul li a {
 
 .image-gallery {
     display: flex; /* Usar flexbox para alinear las imágenes */
-    animation: scroll 80s linear infinite; /* Animación de desplazamiento más lenta */
+    animation: scroll 360s linear infinite; /* Animación de desplazamiento más lenta */
 }
 
 @keyframes scroll {
@@ -286,7 +286,7 @@ nav ul li a {
 .image-gallery img {
     width: 100px; /* Ajusta el tamaño según sea necesario */
     height: auto; /* Mantiene la proporción original */
-    transition: transform 0.3s; /* Suave efecto al pasar el cursor */
+    transition: transform 1.1s; /* Suave efecto al pasar el cursor */
 }
 
 /* Efecto de zoom al pasar el cursor */
